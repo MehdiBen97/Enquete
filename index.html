@@ -14,8 +14,11 @@
   <title>Boycott national 2.0 de 2018 et sa gestion par les entreprises</title>
 
   <!-- Bootstrap core CSS -->
-  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
+  <!-- <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet"> -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+  
   <!-- Additional CSS Files -->
   <link rel="stylesheet" href="assets/css/fontawesome.css">
   <link rel="stylesheet" href="assets/css/templatemo-space-dynamic.css">
@@ -83,7 +86,7 @@
               <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
                 <h6>Bienvenue dans cette étude</h6>
                 <h2><em>Boycott</em> national 2.0 de 2018 et sa <span>gestion</span> par les entreprises </h2>
-                <p>Dans le cadre du travail de terrain de ma thèse de doctorat intitulée <span style="font-weight: bold; color: #248595;"> « La communication de crise au Maroc à l’ère des réseaux sociaux numériques »</span>, je vous prie de bien vouloir répondre au présent guide d’entretien qui s’articule autour du boycott national 2.0 de 2018 et sa gestion par les entreprises. <em>Jihane M’FERREJ - Doctorante
+                <p><span style="font-weight: bold; color: #248595; font-size: x-large;">&#10077;</span>Dans le cadre du travail de terrain de ma thèse de doctorat intitulée <span style="font-weight: bold; color: #248595;"> « La communication de crise au Maroc à l’ère des réseaux sociaux numériques »</span>, je vous prie de bien vouloir répondre au présent guide d’entretien qui s’articule autour du boycott national 2.0 de 2018 et sa gestion par les entreprises<span style="font-weight: bold; color: #248595;font-size: x-large;">&#10078;</span>. <em>Jihane M’FERREJ - Doctorante
                 </em>.</p>
                 <!-- <form id="search" action="#" method="GET">
                   <fieldset>
@@ -180,7 +183,23 @@
         <div class="col-lg-6 wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.2s">
           <div class="section-heading">
             <h2>Contexte <em>de</em> <span>l'étude</span> :</h2>
-            <p>Le boycott marchand peut être défini comme étant une action concertée refusant ou préconisant le refus d’achat/de vente d’un produit en vue d’exercer une pression économique sur l’entreprise . Le boycott organisé au Maroc en Avril 2018 constitue un exemple parfait de cette action dont l’étendue, la forte adhésion des consommateurs, la durée et l’ambigüité de l’origine en font un cas unique et inédit de contestation. En effet, l’appel au boycott, lancé le 20 Avril 2018, a été largement partagé et commenté à travers les réseaux sociaux visant des produits phares du panier des Marocains. Trois produits de trois branches différentes sont concernés : l’eau minérale la plus vendue au Maroc à l’époque Sidi Ali, le lait de la centrale Danone qui accapare plus de 60 % du marché et les stations de distribution de carburant Afriquia classées n° 1 en termes de parts de marché et de capacité de stockage. L’objectif affiché étant la baisse des prix des trois produits et l’interpellation des marques sur leurs marges.</p>
+            <p>Le boycott marchand peut être défini comme étant une action concertée refusant ou préconisant le refus d’achat/de vente d’un produit en vue d’exercer une pression économique sur l’entreprise . Le boycott organisé au Maroc en Avril 2018 constitue un exemple parfait de cette action dont l’étendue, 
+              la forte adhésion des consommateurs, la durée et l’ambigüité de l’origine en font un cas unique et inédit de contestation.
+              <a id="link-lire" class="link-lire collapse show" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="$('#linkhidden')[0].click()">
+                Lire la suite
+              </a>
+              <p class="collapse" id="collapseExample">
+                En effet, l’appel au boycott, lancé le 20 Avril 2018, a été largement partagé et commenté à travers les réseaux sociaux visant des produits phares du panier des Marocains. Trois produits de trois branches différentes sont concernés : l’eau minérale la plus vendue au Maroc à l’époque Sidi Ali, le lait de la centrale Danone qui accapare plus de 60 % du marché et les stations de distribution de carburant Afriquia classées n° 1 en termes de parts de marché et de capacité de stockage. L’objectif affiché étant la baisse des prix des trois produits et l’interpellation des marques sur leurs marges.
+                <a id="linkReduire" class="link-lire" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample" onclick="$('#linkhidden')[0].click()">
+                  Reduire
+                </a>
+                <a id="linkhidden" class="" data-bs-toggle="collapse" href="#link-lire" role="button" aria-expanded="false" aria-controls="collapseExample">
+                  
+                </a>
+              </p>
+            </p>
+               
+             
           </div>
           
         </div>
@@ -506,8 +525,9 @@
     </div>
   </footer>
   <!-- Scripts -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <!-- <script src="vendor/jquery/jquery.min.js"></script> -->
+  <!-- <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script> -->
+  <!-- <script src="vendor/bootstrap/js/bootstrap.min.js"></script> -->
   <script src="assets/js/owl-carousel.js"></script>
   <script src="assets/js/animation.js"></script>
   <script src="assets/js/imagesloaded.js"></script>

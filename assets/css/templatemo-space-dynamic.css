@@ -128,6 +128,7 @@ p {
   font-size: 15px;
   line-height: 30px;
   color: #2a2a2a;
+  text-align: center;
 }
 
 img {
@@ -1004,8 +1005,8 @@ Services Style
 }
 
 .our-services .section-heading p {
-  margin-top: 30px;
-  margin-bottom: 60px;
+  margin-top: 10px;
+  /* margin-bottom: 60px; */
   text-align: justify;
 }
 
@@ -1158,42 +1159,13 @@ Portfolio
   transition: all 0.5s;
 }
 /* added by mehdi */
-.our-portfolio .showed-content2 {
-  top: 0px;
-  position: relative;
-  z-index: 3;
-  /* background-color: #fff; */
-  background: #FEAC5E;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #4bc0c8bd, #c779d057, #feab5e96);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #4bc0c8bd, #c779d057, #feab5e96); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-  /* text-align: center; */
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  /* transition: all 0.5s; */
-  margin-bottom: 0.7em;
-}
-.our-portfolio .showed-content3 {
-  top: 0px;
-  position: relative;
-  z-index: 3;
-  background: #ff6e7f;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #bfe9ff, #ff6e7f);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #bfe9ff, #ff6e7f); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-  /* text-align: center; */
-  padding: 50px;
-  border-radius: 20px;
-  box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
-  /* transition: all 0.5s; */
-  margin-bottom: 0.7em;
-}
 .question{
 font-size: 16px;
 font-weight: 700;
 color: #00BBBB;
 margin: 18px 0px 15px 0px;
+text-align: justify;
 }
 #msform input[type='text'], input[type='tel'],input[type='email']{
   width: 100%;
@@ -1227,7 +1199,7 @@ margin-bottom: 20px;
 }
 #msform button[type='submit'], #msform input[type='submit']{
   /* display: block; */
-  width: 16%;
+width: 128px;
 background-color: #FFC211;
 font-size: 15px;
 font-weight: 400;
@@ -1521,9 +1493,21 @@ responsive
   form#contact .contact-dec {
     display: none;
   }
+  .question{
+    font-size: 1em;
+  }
+  fieldset p{
+    font-size: 0.85em;
+  }
 }
 
 @media (max-width: 992px) {
+  .question{
+    font-size: 0.8em;
+  }
+  fieldset p{
+    font-size: 0.7em;
+  }
   .main-banner {
     padding-top: 196px;
   }
@@ -1562,8 +1546,8 @@ responsive
     text-align: center;
   }
   .about-us .services .item  {
-    background: rgb(44, 255, 220);
-    background: linear-gradient(105deg, rgb(30, 255, 188) 0%, rgb(44, 255, 220) 100%);
+    background: #1fb9c7;
+    background: linear-gradient(105deg, #10919c 0%, #1fb9c7 100%);
     padding: 30px;
     border-radius: 20px;
     display: inline-block;
@@ -1782,6 +1766,12 @@ responsive
 #progressbar li.active:before,  #progressbar li.active:after{
 	background: #27AE60;
 	color: white;
+}
+
+fieldset p{
+  border: #0d80a3 1px dotted;
+border-radius: 25px;
+padding: 0.4rem;
 }
 
 /* button custom added by me */
